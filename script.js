@@ -11,3 +11,5 @@ const cards=["3","4","5","6","7","8","9","10","J","Q","K","A",
 //Display the scores on the screen;
 //Calculate computer's scores
 //If player's score or computer's score is 21, the player wins/the computer wins.
+let playerScoresInTotal=0;
+let dealerScoresInTotal=0;
