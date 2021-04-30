@@ -1,3 +1,5 @@
+https://davidzyt.github.io/JS-Games-Series-02.BlackJack21/
+
 # Title: 21 card game
 
 - Repository: `js-21-card-game`
