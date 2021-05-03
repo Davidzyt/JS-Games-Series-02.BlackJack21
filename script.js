@@ -2,15 +2,22 @@
 const cardsValues=["2","3","4","5","6","7","8","9","10","11"];
 
 //Definite variable
-const playerHandElementHTML=document.getElementById("playerHand");
-const dealerHandElementHTML=document.getElementById("dealerHand");
+let playerScoresInTotal=0;
+let dealerScoresInTotal=0;
+let playerHand = [];
+let dealerHand = [];
+const playingDeck = [];
+const playerScore = document.getElementById("playerScore");
+const dealerScore = document.getElementById("dealerScore");
+const playerCard = document.getElementById("playerCard");
+const dealerCard = document.getElementById("dealerCard");
+
 
 //Random pick up two elements from the array and give them to the player;
 //Show the values separately,
 //Save the values and add them in total scores;
 
-let playerScoresInTotal=0;
-let dealerScoresInTotal=0;
+
 
 const randomChoice = () => {
     const randomIndex = Math.floor(Math.random() * cardsValues.length);
